@@ -7259,7 +7259,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.fm@1.0_vendor",
-    stem: "vendor.qti.hardware.fm@1.0",
+    stem: "vendor.qti.hardware.fm@1.0_vendor",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -8726,7 +8726,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "liblog",
                 "libutils",
-                "vendor.qti.hardware.fm@1.0",
+                "vendor.qti.hardware.fm@1.0_vendor",
                 "libc++",
                 "libc",
                 "libm",
