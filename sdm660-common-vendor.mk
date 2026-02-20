@@ -184,8 +184,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gnss@2.0-impl-qti \
     com.dsi.ant@1.0-impl \
-    consumerir.lirc.sdm660 \
-    consumerir.spi.sdm660 \
     vendor.qti.gnss@3.0-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.btconfigstore@1.0-impl \
