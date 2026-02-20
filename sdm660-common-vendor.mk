@@ -147,7 +147,6 @@ PRODUCT_PACKAGES += \
     libsysmon_cdsp_skel \
     libthermalclient \
     libtinyxml2_1 \
-    vendor.qti.hardware.btconfigstore@2.0 \
     vendor.qti.hardware.mwqemadapter@1.0 \
     btaudio_offload_if \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
