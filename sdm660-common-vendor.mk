@@ -121,7 +121,6 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libmdmdetect \
     libmdsprpc \
-    libminkdescriptor \
     libqcci_legacy \
     libqdi \
     libqdp \
