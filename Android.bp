@@ -14,63 +14,6 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-    name: "libFileMux",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/libFileMux.so",
-            ],
-            shared_libs: [
-                "libmmosal",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libmmparser_lite",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libOmxMux",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/libOmxMux.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libFileMux",
-                "libbinder",
-                "libmmosal",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    check_elf_files: false,
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
     name: "com.dsi.ant@1.0_vendor",
     stem: "com.dsi.ant@1.0",
     owner: "xiaomi",
