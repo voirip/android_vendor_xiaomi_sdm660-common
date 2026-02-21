@@ -2453,7 +2453,6 @@ cc_prebuilt_library_shared {
                 "android.hardware.bluetooth.audio@2.0",
                 "libbluetooth_audio_session",
                 "libbluetooth_audio_session_qti",
-                "libbluetooth_audio_session_qti_2_1",
                 "libc++",
                 "libc",
                 "libm",
