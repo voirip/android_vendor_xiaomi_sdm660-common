@@ -10110,7 +10110,7 @@ cc_prebuilt_binary {
                 "libhidlbase",
                 "libcutils",
                 "libutils",
-                "com.qualcomm.qti.dpm.api@1.0",
+                "com.qualcomm.qti.dpm.api@1.0_vendor",
                 "libc++",
                 "libc",
                 "libm",
